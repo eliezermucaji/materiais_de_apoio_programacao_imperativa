@@ -1,11 +1,13 @@
 #define MAX 100
-enum typeToken{
+
+enum tokenType{
   NUMERO,
   PARENTESES,
-  OPERADOR
+  OPERADOR,
+  NONE
 };
 
 typedef struct {
   char value[MAX];
-  typeToken type;
+  enum tokenType type;
 }Token;
