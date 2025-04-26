@@ -8,6 +8,7 @@ enum tokenType{
 };
 
 typedef struct {
-  char value[MAX];
+  char value;
   enum tokenType type;
+  int peso;
 }Token;

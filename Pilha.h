@@ -1,4 +1,3 @@
-#include "Token.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -13,8 +12,11 @@ typedef struct {
 
 //Prototipos de funcoes
 void initPilha(Pilha *P);
-No *getNOLista(Token tk);
+No *getNOPilha(Token tk);
 int vaziaPilha(Pilha *P);
+int push(Pilha *P, Token tk);
+int pop(Pilha *P);
+Token top(Pilha *P);
 
 
 
@@ -36,9 +38,9 @@ No *getNOPilha(Token tk) {
     perror("Erro de alocacao de memoria.\n");
     exit(-1);
   }
-
   ptr->prox = NULL;
   ptr->tk = tk;
+
   return ptr;
 }
 
