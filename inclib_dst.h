@@ -5,5 +5,3 @@
 #include "Token.h"
 #include "Pilha.h"
 #include "Fila.h"
-
-#define DEF 0
