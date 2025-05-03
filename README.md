@@ -1,7 +1,3 @@
-Entendi! Quando você tem texto em **blocos de código** ou **caixas de texto**, como listas ou trechos de código, você deve usar a sintaxe apropriada do Markdown para garantir que o texto seja formatado corretamente no `README.md`.
-
-Aqui está uma versão corrigida do `README.md`, com todas as seções e blocos de código devidamente formatados para você poder copiar e colar diretamente:
-
 ```markdown
 # Projeto de Final de Semestre – Programação Imperativa: Analisador e Avaliador de Expressões Matemáticas
 
