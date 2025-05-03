@@ -66,7 +66,7 @@ int remover(Fila *F) {
 }
 
 Token frente(Fila *F) {
-  Token tk = {"", NONE};
+  Token tk = {'n', NONE, -1};
   if(vaziaFila(F)) return tk;
 
   return F->inicio->tk;

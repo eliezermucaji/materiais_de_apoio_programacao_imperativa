@@ -70,7 +70,7 @@ int pop(Pilha *P) {
 }
 
 Token top(Pilha *P) {
-  Token tk = {"", NONE};
+  Token tk = {'n', NONE, -1};
   if(vaziaPilha(P)) return tk;
   return P->cabeca->tk;
 }
