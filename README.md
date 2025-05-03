@@ -133,15 +133,3 @@ O repositório possui a seguinte estrutura de diretórios e arquivos:
 ## Conclusão
 
 Este projeto permite ao aluno compreender e implementar a análise e avaliação de expressões matemáticas em um nível baixo, utilizando programação imperativa. As bibliotecas fornecidas servem como base para a construção de soluções que manipulam expressões matemáticas com diferentes operações e validações.
-
-````
-
-### Explicação da Formatação:
-
-- **Títulos e subtítulos** são criados com `#` e `##` para uma estrutura hierárquica.
-- **Listas** são criadas com `-` para os itens da lista.
-- **Blocos de código** (como comandos ou trechos de código) são envoltos por três crases (```).
-- **Texto em negrito** é feito com `**` e **itálico** com `_`.
-
-Agora você pode copiar este conteúdo diretamente e colá-lo no seu repositório GitHub. Se precisar de mais algum ajuste ou alteração, é só me avisar!
-````
